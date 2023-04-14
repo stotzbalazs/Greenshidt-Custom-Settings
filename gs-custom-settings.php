@@ -10,8 +10,10 @@
 * Text Domain: greenshift
 */
 
-if (!defined('ABSPATH'))
+// Exit if accessed directly
+if (!defined('ABSPATH')) {
     exit;
+}
 
 //ACF Google Maps API
 function my_acf_google_map_api($api)
